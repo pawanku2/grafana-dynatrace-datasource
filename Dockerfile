@@ -1,4 +1,4 @@
-FROM grafana/grafana:latest
+FROM grafana/grafana:8.5.0-beta1
 
 # Add dynatrace plugin source
 ADD . /var/lib/grafana/plugins/grafana-dynatrace-datasource
